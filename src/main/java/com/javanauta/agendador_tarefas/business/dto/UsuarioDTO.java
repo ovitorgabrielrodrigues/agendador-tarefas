@@ -1,4 +1,4 @@
-package infrastructure.business.dto;
+package com.javanauta.agendador_tarefas.business.dto;
 
 import lombok.*;
 

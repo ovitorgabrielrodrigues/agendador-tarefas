@@ -1,6 +1,6 @@
-package infrastructure.entity;
+package com.javanauta.agendador_tarefas.infrastructure.entity;
 
-import infrastructure.enums.StatusNotificacaoEnum;
+import com.javanauta.agendador_tarefas.infrastructure.enums.StatusNotificacaoEnum;
 import lombok.*;
 import org.springframework.data.annotation.Id;
 import org.springframework.data.mongodb.core.mapping.Document;

@@ -1,4 +1,4 @@
-package infrastructure.security;
+package com.javanauta.agendador_tarefas.infrastructure.security;
 
 import jakarta.servlet.FilterChain;
 import jakarta.servlet.ServletException;

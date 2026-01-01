@@ -1,6 +1,6 @@
-package infrastructure.client;
+package com.javanauta.agendador_tarefas.client;
 
-import infrastructure.business.dto.UsuarioDTO;
+import com.javanauta.agendador_tarefas.business.dto.UsuarioDTO;
 import org.springframework.cloud.openfeign.FeignClient;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestHeader;

@@ -1,7 +1,7 @@
-package infrastructure.business.mapper;
+package com.javanauta.agendador_tarefas.business.mapper;
 
-import infrastructure.business.dto.TarefaDTO;
-import infrastructure.entity.TarefaEntity;
+import com.javanauta.agendador_tarefas.business.dto.TarefaDTO;
+import com.javanauta.agendador_tarefas.infrastructure.entity.TarefaEntity;
 import org.mapstruct.Mapper;
 import org.mapstruct.Mapping;
 
