@@ -15,9 +15,9 @@ public class UserDetailsServiceImpl {
 
     private UsuarioClient client;
 
-    public UserDetails carregaDadosUsuario(String email, String token){
+    public UserDetails carregaDadosUsuario(String email, String token) {
         UsuarioDTO usuarioDTO = client.buscaUsuarioPorEmail(email, token);
-        return   User.withUsername(usuarioDTO.getEmail())
+        return User.withUsername(usuarioDTO.getEmail())
                 .password(usuarioDTO.getSenha())
                 .build();
     }
